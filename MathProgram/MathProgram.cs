@@ -1,8 +1,10 @@
 internal static class MathProgram
 {
-    public  static int Increment(int number)
+    public  static double Increment(int number)
     {
-        return number+1;
+        double a;
+        a = Math.Sqrt(number);
+        return a; 
 
     }
 }

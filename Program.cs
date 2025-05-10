@@ -3,7 +3,8 @@
     private static void Main(string[] args)
     {
         // Console.WriteLine("Hello, World!");
-        
-        Console.WriteLine(MathProgram.Increment(10));
+
+        Console.WriteLine(MathProgram.Increment(4));
+       
     }
 }
