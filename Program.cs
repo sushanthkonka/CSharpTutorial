@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using MyApplication;
 internal class Program
 {
     private static void Main(string[] args)
@@ -27,6 +28,8 @@ internal class Program
         Encapsulation.AgeOfPerson();
         Inheritance.AnimalBehavior();
         Polymorphism.Method_Overriding();
+        Abstraction.PaymentMethod();
+        Try_Catch.ExceptionHandling();
 
     }
 }
