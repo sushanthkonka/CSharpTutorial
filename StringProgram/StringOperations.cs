@@ -1,10 +1,8 @@
 
-internal static class C_StringProgram
+internal static class StringOperations
 {
-    public  static string String_Assign( )
+    public  static string String_Concatenation( )
     {
-        // string greeting = "Hello";
-        // return greeting;
         string firstName = "John ";
         string lastName = "Doe";
         string name = firstName + lastName;
@@ -21,15 +19,14 @@ internal static class C_StringProgram
       
     }
 
-  public static string String_Access()
+public static char String_Access()
 {
     string name = "John";
-    char name1 = name[1]; 
-    
-    return name1.ToString(); 
+    char name1 = name[1];
+    return name1;
 }
 
- public static string String_Text()
+ public static string Special_Characters()
 {
     string txt = "We are the so-called \"Vikings\" from the north.";
     return txt;

@@ -1,13 +1,13 @@
 class BooleanProgram
 {
-    public static bool Boolean_type()
+    public static bool IsCSharpFun()
     {
         bool isCSharpFun = true;
         return isCSharpFun;
 
     }
 
-    public static bool Boolean_type2()
+    public static bool IsFishTasty()
     {
         bool isFishTasty = false;
         return isFishTasty;
