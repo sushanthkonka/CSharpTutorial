@@ -1,11 +1,25 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using MyApplication;
 internal class Program
 {
     private static void Main(string[] args)
     {
-        //Hello World 
+        System.Console.WriteLine("Color of the car:");
+        Class_Object.ShowCarColor();
+        System.Console.WriteLine();
+
+        // AllMethods();
+
+      
+
+
+    }
+
+    private static void AllMethods()
+    {
+                //Hello World 
         Console.WriteLine("Hello, World!");
         System.Console.WriteLine();
 
@@ -134,10 +148,6 @@ internal class Program
         System.Console.WriteLine("Given Number is prime or not");
         PrimeNumber.isPrimeNumber(7);
         System.Console.WriteLine();
-
-      
-
-
     }
 }
 

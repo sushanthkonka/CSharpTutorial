@@ -2,6 +2,10 @@ using System;
 
 internal class Car
 {
+    public Car()
+    {
+        
+    }
     public string color = "red";
 }
 
