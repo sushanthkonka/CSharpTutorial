@@ -14,8 +14,8 @@ internal class Program
         Console.WriteLine(MathProgram.SquareRootOfNum(4));
         System.Console.WriteLine();
 
-       // Concatanation of a string
-       System.Console.WriteLine("Concatanation of a string");
+        // Concatanation of a string
+        System.Console.WriteLine("Concatanation of a string");
         Console.WriteLine(StringOperations.String_Concatenation());
         System.Console.WriteLine();
 
@@ -23,20 +23,20 @@ internal class Program
         System.Console.WriteLine("Interpolation of a String:");
         Console.WriteLine(StringOperations.String_Interpolation());
         System.Console.WriteLine();
-      
-       //Accessing the index of a string
+
+        //Accessing the index of a string
         System.Console.WriteLine(" Accessing the character at index '0': ");
         Console.WriteLine(StringOperations.String_Access());
         System.Console.WriteLine();
 
-       //Printing of Special Characters
-       System.Console.WriteLine("Printing of Special Characters :");
+        //Printing of Special Characters
+        System.Console.WriteLine("Printing of Special Characters :");
         Console.WriteLine(StringOperations.Special_Characters());
         System.Console.WriteLine();
 
 
-       // Boolean for a statement
-       System.Console.WriteLine("Is Csharp Fun:?");
+        // Boolean for a statement
+        System.Console.WriteLine("Is Csharp Fun:?");
         Console.WriteLine(BooleanProgram.IsCSharpFun());
         System.Console.WriteLine("Is Fist Tasty:?");
         Console.WriteLine(BooleanProgram.IsFishTasty());
@@ -51,7 +51,7 @@ internal class Program
         System.Console.WriteLine("Switch condition for Weekday 5:");
         Console.WriteLine(SwitchCondition.Weekday(5));
         System.Console.WriteLine();
-         
+
         //while statement for printing numbers 
         System.Console.WriteLine("Print numbers from 0 to 5: ");
         Console.WriteLine(Condition_While.PrintNumbersWithWhile(0));
@@ -73,13 +73,13 @@ internal class Program
         System.Console.WriteLine();
 
 
-       //Changing the Array element by using index value
+        //Changing the Array element by using index value
         System.Console.WriteLine("Changing the Array element by using index value:");
         ArrayExamples.Array_Element();
         System.Console.WriteLine();
 
-       //Length of an array
-       System.Console.WriteLine("Length of an array:");
+        //Length of an array
+        System.Console.WriteLine("Length of an array:");
         ArrayExamples.Array_Length();
         System.Console.WriteLine();
 
@@ -128,6 +128,13 @@ internal class Program
         System.Console.WriteLine("Exception Handing by Try Catch and Finally:");
         Try_Catch.ExceptionHandling();
         System.Console.WriteLine();
+
+
+        //Try Catch Finally
+        System.Console.WriteLine("Given Number is prime or not");
+        PrimeNumber.isPrimeNumber(7);
+        System.Console.WriteLine();
+
       
 
 

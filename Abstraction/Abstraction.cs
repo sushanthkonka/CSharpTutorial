@@ -30,16 +30,14 @@ class Abstraction
 {
     public static void PaymentMethod()
     {
-        Payment payment;
-
-        payment = new CreditCardPayment();
-        payment.Authenticate();
-        payment.ProcessPayment();
+        Payment sushanth = new CreditCardPayment();
+        sushanth.Authenticate();
+        sushanth.ProcessPayment();
 
         Console.WriteLine();
 
-        payment = new UpiPayment();
-        payment.Authenticate();
-        payment.ProcessPayment();
+       sushanth = new UpiPayment();
+        sushanth.Authenticate();
+        sushanth.ProcessPayment();
     }
 }
